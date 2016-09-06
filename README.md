@@ -239,3 +239,6 @@ create_database(int& argc, char* argv[])
 #endif // DATABASE_HXX
 
 ```
+
+> [ORM:ODB安装使用过程](http://blog.csdn.net/pamxy/article/details/44839481)
+> [ODB学习笔记之基础环境搭建](http://blog.csdn.net/feng______/article/details/33411119)
