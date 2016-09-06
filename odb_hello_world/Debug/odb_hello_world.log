@@ -1,0 +1,13 @@
+﻿  person-odb.cxx
+c:\users\administrator\documents\visual studio 2015\projects\odb_hello_world\odb-mysql\include\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  c:\users\administrator\documents\visual studio 2015\projects\odb_hello_world\odb-mysql\include\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  main.cpp
+c:\users\administrator\documents\visual studio 2015\projects\odb_hello_world\odb-mysql\include\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  c:\users\administrator\documents\visual studio 2015\projects\odb_hello_world\odb-mysql\include\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+c:\users\administrator\documents\visual studio 2015\projects\odb_hello_world\odb_hello_world\person.hxx(8): warning C4068: 未知的杂注
+c:\users\administrator\documents\visual studio 2015\projects\odb_hello_world\odb_hello_world\person.hxx(48): warning C4068: 未知的杂注
+  正在生成代码...
+  odb_hello_world.vcxproj -> c:\users\administrator\documents\visual studio 2015\Projects\odb_hello_world\Debug\odb_hello_world.exe
+  odb_hello_world.vcxproj -> c:\users\administrator\documents\visual studio 2015\Projects\odb_hello_world\Debug\odb_hello_world.pdb (Full PDB)

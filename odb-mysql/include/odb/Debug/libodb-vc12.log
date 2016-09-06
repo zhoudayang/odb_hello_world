@@ -1,0 +1,97 @@
+﻿  transaction.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  tracer.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  statement-processing.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  statement.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  session.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  section.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  schema-catalog.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  result.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  query-dynamic.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  prepared-query.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  lazy-ptr-impl.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  connection.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  vector-impl.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  database.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  exceptions.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  callback.cxx
+  正在生成代码...
+  mutex.cxx
+  lock.cxx
+  condition.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  buffer.cxx
+  正在生成代码...
+  base.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  dll.cxx
+  exceptions.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  thread.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  condition.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  tls.cxx
+e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“odb::exception”的基
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  e:\libodb-2.4.0\libodb-2.4.0\odb\exception.hxx(19): note: 参见“odb::exception”的声明
+  once.cxx
+  init.cxx
+  正在生成代码...
+    正在创建库 ..\lib\odb-d.lib 和对象 ..\lib\odb-d.exp
+  libodb-vc12.vcxproj -> E:\libodb-2.4.0\libodb-2.4.0\odb\..\bin\odb-d-2.4-vc12.dll
+  libodb-vc12.vcxproj -> ..\bin\odb-d-2.4-vc12.pdb (Full PDB)
