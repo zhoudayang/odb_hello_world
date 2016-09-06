@@ -27,6 +27,8 @@
 #include <odb/no-op-cache-traits.hxx>
 #include <odb/result.hxx>
 #include <odb/simple-object-result.hxx>
+#include <odb/view-image.hxx>
+#include <odb/view-result.hxx>
 
 #include <odb/details/unused.hxx>
 #include <odb/details/shared-ptr.hxx>
@@ -73,6 +75,25 @@ namespace odb
 
     static void
     callback (database&, const object_type&, callback_event);
+  };
+
+  // person_stat
+  //
+  template <>
+  struct class_traits< ::person_stat >
+  {
+    static const class_kind kind = class_view;
+  };
+
+  template <>
+  class access::view_traits< ::person_stat >
+  {
+    public:
+    typedef ::person_stat view_type;
+    typedef ::person_stat* pointer_type;
+
+    static void
+    callback (database&, view_type&, callback_event);
   };
 }
 
@@ -309,8 +330,79 @@ namespace odb
   {
   };
 
+  // person_stat
+  //
+  template <>
+  class access::view_traits_impl< ::person_stat, id_mysql >:
+    public access::view_traits< ::person_stat >
+  {
+    public:
+    struct image_type
+    {
+      // count
+      //
+      unsigned long long count_value;
+      my_bool count_null;
+
+      // min_age
+      //
+      unsigned short min_age_value;
+      my_bool min_age_null;
+
+      // max_age
+      //
+      unsigned short max_age_value;
+      my_bool max_age_null;
+
+      std::size_t version;
+    };
+
+    typedef mysql::view_statements<view_type> statements_type;
+
+    typedef mysql::query_base query_base_type;
+    struct query_columns;
+
+    static const bool versioned = false;
+
+    static bool
+    grow (image_type&,
+          my_bool*);
+
+    static void
+    bind (MYSQL_BIND*,
+          image_type&);
+
+    static void
+    init (view_type&,
+          const image_type&,
+          database*);
+
+    static const std::size_t column_count = 3UL;
+
+    static query_base_type
+    query_statement (const query_base_type&);
+
+    static result<view_type>
+    query (database&, const query_base_type&);
+  };
+
+  template <>
+  class access::view_traits_impl< ::person_stat, id_common >:
+    public access::view_traits_impl< ::person_stat, id_mysql >
+  {
+  };
+
   // person
   //
+  // person_stat
+  //
+  struct access::view_traits_impl< ::person_stat, id_mysql >::query_columns:
+    odb::pointer_query_columns<
+      ::person,
+      id_mysql,
+      odb::access::object_traits_impl< ::person, id_mysql > >
+  {
+  };
 }
 
 #include "person-odb.ixx"

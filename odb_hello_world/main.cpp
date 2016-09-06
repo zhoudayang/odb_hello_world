@@ -38,6 +38,18 @@ int main(int argc, char* argv[])
 			t.commit();
 			//change will take effect only after commit !
 		}
+		//print some statistics about all the people in out database 
+		//
+		{
+			transaction t(db->begin());
+			person_stat ps(db->query_value<person_stat>());
+			cout << endl;
+			cout << "count : " << ps.count << endl;
+			cout << "min age : " << ps.min_age << endl;
+			cout << "max age : " << ps.max_age << endl;
+			cout << endl;
+			t.commit();
+		}
 		typedef odb::query<person> query;
 		typedef odb::result<person> result;
 
@@ -67,6 +79,14 @@ int main(int argc, char* argv[])
 			transaction t(db->begin());
 			db->erase<person>(john_id);
 			t.commit();
+			cout << "erase John from table person" << endl;
+		}
+		//execute sql to delete * from table person 
+		{
+			transaction t(db->begin());
+			db->execute("delete  from person");
+			t.commit();
+			cout << "now person contains nothing!" << endl;
 		}
 
 	}
