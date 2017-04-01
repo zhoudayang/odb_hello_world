@@ -1,29 +1,29 @@
 ## ODB MySQL  hello world程序  ##
-#### 1. 链接库和包含路径 ####
+#### 1. 链接库和包含路径
 - 链接库和包含路径详见项目根目录下文件夹 **odb-mysql**，其中子文件夹的内容简介可以参考 *config.md*
 
-#### 2. 项目配置 ####
+#### 2. 项目配置
 
-##### 1. 配置包含路径：#####
+##### 1. 配置包含路径
 
 **详见下图：**
 ![include directory](http://i.imgur.com/PkBoMtd.png)
 
-##### 2. 配置链接路径：#####
+##### 2. 配置链接路径：
 **配置见下图：**
 ![lib directory](http://i.imgur.com/AG3fu0q.png)
 
-##### 3. 配置依赖项：#####
+##### 3. 配置依赖项：
 **见下图：**
 ![dependency](http://i.imgur.com/cEDs8bX.png)
 附加依赖项：**odb-mysql-d.lib;odb-d.lib;%(AdditionalDependencies)**
 
-##### 4. 配置预处理器定义: #####
+##### 4. 配置预处理器定义:
 **如下所示：**
 ![pre processing](http://i.imgur.com/Sg3F94Q.png)
 预处理器定义: **WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_DEPRECATE;DATABASE_MYSQL;%(PreprocessorDefinitions)**
 
-#### 3.定义表结构  ####
+#### 3.定义表结构  
 参照[官方文档](http://www.codesynthesis.com/products/odb/doc/odb-manual.pdf)，定义如下类，对应表person。
 
 ```
@@ -86,10 +86,10 @@ private:
 #endif // PERSON_HXX
 
 ```
-#### 4.利用odb生成代码 ####
+#### 4.利用odb生成代码 
 
 执行命令 ```odb -d mysql --generate-query --generate-schema person.hxx ``` 生成代码，利用生成的*person.sql* 在数据库中创建表。
-#### 5.将person类实例保存进入数据库 ####
+#### 5.将person类实例保存进入数据库 
 - 将生成的文件 **person-odb.hxx** 和 **person-odb.ixx** 加入头文件，将**person-odb.cxx**加入源文件。
 - 具体实现参照代码，需要指定正确的数据库连接方式，并且数据表**person**已经建立完成。
 
